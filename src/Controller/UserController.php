@@ -56,7 +56,7 @@ class UserController extends AbstractController
                     'message' => "Inscription reussie",
                     'data' => $user
                 ],
-                400
+                201
             );
         } catch (NotEncodableValueException $e) {
 
